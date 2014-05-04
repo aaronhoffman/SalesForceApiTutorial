@@ -10,7 +10,8 @@ namespace SalesForceApiTutorial.View.Console
     {
         static void Main(string[] args)
         {
-            
+            var salesForceController = new SalesForceController();
+            salesForceController.Run();
         }
     }
 }
